@@ -12,7 +12,7 @@ result[1] 即匹配的结果
 
 去掉前后空格 "<body><service>  \ntest  </service></body>".match(/<service>\s*(\S*)\s*<\/service>/)
   
- 中间戴空格
+ 去掉前后空格。中间有空格
  "<body><service>  \nte s t  </service></body>".match(/<service>\s*(\S*[\w\s]*\S)\s*<\/service>/)
   
   
