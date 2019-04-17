@@ -16,8 +16,7 @@ result[1] 即匹配的结果
  "<body><service>  \nte s t  </service></body>".match(/<service>\s*(\S*[\w\s]*\S)\s*<\/service>/)
   
   
-  
-  ^ 匹配一个输入或一行的开头，/^a/匹配"an A"，而不匹配"An a" 
+ ^ 匹配一个输入或一行的开头，/^a/匹配"an A"，而不匹配"An a" 
   
 $ 匹配一个输入或一行的结尾，/a$/匹配"An a"，而不匹配"an A" 
 
